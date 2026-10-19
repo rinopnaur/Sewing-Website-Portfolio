@@ -1,0 +1,45 @@
+.h1{
+  font-size: 5rem;
+  color: black;
+  text-align: center;
+  font-family: Schoolbell;
+  margin-top: -1px;
+  margin-bottom: 2px;
+}
+
+.homeBody{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img{
+  max-width: 60%;
+  height: auto;
+  margin: none;
+}
+
+.h3{
+  font-family: Schoolbell, Arial;
+  color: hsl(0, 1%, 55%);
+  font-size: 2rem;
+}
+
+@media (max-device-width: 768px) {
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .h3 {
+    font-size: 1rem;
+  }
+
+  .img {
+    max-width: 80%;
+  }
+
+  .imageContainer {
+    flex-wrap: wrap;
+  }
+}
